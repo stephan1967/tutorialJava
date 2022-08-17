@@ -32,7 +32,6 @@ public class cssSelectorTutorial {
         driver.findElement(By.cssSelector("input[id*='erEm']")).sendKeys("Voornaam@thewiker.org");
         driver.findElement(By.cssSelector("input[id*='erEm']")).clear();
 
-
         // FindBy CSS Selector + Class
         driver.findElement(By.cssSelector("textarea.form-control")).sendKeys("Lorem ipsum krokettendag.");
         driver.findElement(By.cssSelector("textarea.form-control")).clear();
